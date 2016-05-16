@@ -75,7 +75,7 @@ Rails.application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
   # Do not dump schema after migrations.
-  # correo usando gmail
+  # correo usando cuenta de gmail
 config.active_record.dump_schema_after_migration = false
 config.action_mailer.perform_deliveries = false
 config.action_mailer.raise_delivery_errors = true
